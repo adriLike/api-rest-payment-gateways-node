@@ -1,0 +1,9 @@
+{
+    "validationError": { "errorCode": 400, "message": "Validation error"},
+    "resourceNotFound": {"errorCode":404, "message": "Resource no exists" },
+    "gatewayNotFound": {"errorCode":404, "message": "Requested provider does not exist in the system" },
+    "resourceAlreadyExists": {"errorCode": 409, "message": "Resource already exists" },
+    "invalidProvider": {"errorCode": 409, "message": "The provided provider is not supported in the system" },
+    "invalidFunctionInProvider": {"errorCode": 409, "message": "The action to perform is not supported in the provided provider" },
+    "notAvailibleAction": {"errorCode": 409, "message": "The current provider is not active in the system" }
+}
